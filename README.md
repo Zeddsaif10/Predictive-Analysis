@@ -10,7 +10,6 @@ This project performs an in-depth exploratory data analysis (EDA) and preprocess
 	•	Explore multivariate correlations and patterns.
 	•	Apply data transformation techniques, including binning, normalization, and discretization.
 
-⸻
 
 🛠️ Data Processing and Analysis Steps
 
@@ -18,7 +17,6 @@ This project performs an in-depth exploratory data analysis (EDA) and preprocess
 	•	Converted age from days to years (age_years).
 	•	Binarized categorical Yes/No columns (smoke, alco, active, cardio) to numerical values (1/0).
 
-⸻
 
 2. Descriptive Statistics and Visualization
 	•	Summary Statistics:
@@ -31,7 +29,6 @@ This project performs an in-depth exploratory data analysis (EDA) and preprocess
 	•	Bar charts for categorical variable frequencies:
 	•	gender, cholesterol, gluc, smoke, alco, active, cardio
 
-⸻
 
 3. Multivariate Analysis
 	•	Correlation Analysis:
@@ -40,7 +37,6 @@ This project performs an in-depth exploratory data analysis (EDA) and preprocess
 	•	Pairwise Relationships:
 	•	Developed a pairplot (scatterplot matrix) stratified by the cardio outcome variable to explore clustering and separation patterns.
 
-⸻
 
 4. Feature Engineering and Transformation
 	•	Height Binning:
@@ -62,7 +58,6 @@ This project performs an in-depth exploratory data analysis (EDA) and preprocess
 	•	Smoke Binarization:
 	•	Verified correct encoding of smoking status into binary format.
 
-⸻
 
 💾 Outputs
 
@@ -70,7 +65,6 @@ All processed data, summaries, and transformation results are saved as:
 	•	Individual Excel sheets (fda_a2_25528908.xlsx)
 	•	Visual plots (.png files) for histograms, boxplots, bar charts, heatmaps, and pairplots.
 
-⸻
 
 🔧 Technologies and Libraries
 	•	Python 3
@@ -79,7 +73,6 @@ All processed data, summaries, and transformation results are saved as:
 	•	Scikit-learn: normalization and scaling
 	•	OpenPyXL: Excel export
 
-⸻
 
 ✅ Usage
 
